@@ -1,0 +1,16 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'ir.robocar.app'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'ir.robocar.app'
+        minSdk 24
+        targetSdk 34
+        versionCode 4
+        versionName '1.3'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
